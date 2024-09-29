@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: rgb(243, 241, 239);
+    height: 80px;
+    font-family: var(--gl-body-font-set-family-functional-2), var(--gl-font-family-fallback);;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(108, 106, 106, 0.623);
+}
+.adidashome{
+    height: 46px;
+    width: 63px;
+
+}
+.logo{
+    margin-left:4% ;
+}
+.actionbar{
+    margin-right: 4%;
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    
+}
+.navbar a{
+    font-size: 14px;
+    color: rgb(17, 3, 3);
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 5px solid rgb(243, 241, 239) ;
+}
+.navbar a sup{
+    color: rgb(169, 12, 20);
+    font-size: 10px;
+}
+.search{
+    color: rgba(161, 177, 177, 0.604);
+    background-color: azure;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+
+}
+.searchbar{
+    height: 45px;
+    min-width: 400px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border-radius: 0 4px 4px 0;
+}
+.searchicon{
+    height: 20px;
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 4px 0 0 4px;
+}
+.action{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.navbar a:hover{
+    border-bottom:4px solid brown;
+    
+}
+.bannerimage{
+    width: 100%;
+}
+.banner{
+    margin: 40px 0;
+}
+.categoryheading{
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.categoryitem1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;}
+
+    .item1{
+        width: 250px;}
+
+
+        .box {
+            width: 450px;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    
+        .box img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    
+        .box h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .box a {
+            
+            color: #333;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        .body1 {
+        display: flex;
+        justify-content: space-evenly;
+         width: 100%;
+        margin: 0;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        flex-wrap: wrap;
+    }
+    .body2{
+        display: flex;
+        justify-content: center;
+         width: 100%;
+        margin: 0;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        
+        flex-direction: row;
+    }
+    .box1 {
+        width: 450px;
+        padding: 30px;
+        background-color: #fff;
+        text-align: center;
+        margin: 5px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .box1 video {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .box1 h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .box1 a {
+        
+        color: #333;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+.footer {
+padding: 30px 0px 40px 0px ;
+background: rgb(154, 152, 149);
+display: flex;
+justify-content: space-evenly;
+}    
+.footercolumn{
+    display: flex;
+    flex-direction: column;
+}
+.footercolumn a{
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.footercolumn h3{
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    font-size: 14px;
+    margin-bottom: 25px;
+}
